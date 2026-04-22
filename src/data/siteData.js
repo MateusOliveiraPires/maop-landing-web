@@ -1,52 +1,11 @@
-export const plans = [
-  {
-    id: 1,
-    name: 'Start',
-    price: 'R$ 497',
-    description: 'Ideal para quem precisa de presença digital rápida e profissional.',
-    featured: false,
-    features: [
-      'Landing page responsiva',
-      'Design moderno e profissional',
-      'Botão para WhatsApp',
-      'Formulário de contato',
-      '1 rodada de ajustes',
-    ],
-    buttonText: 'Quero o plano Start',
-  },
-  {
-    id: 2,
-    name: 'Pro',
-    price: 'R$ 997',
-    description: 'Perfeito para empresas que desejam vender mais com uma página estratégica.',
-    featured: true,
-    features: [
-      'Tudo do plano Start',
-      'Copy persuasiva para conversão',
-      'Seção de benefícios e diferenciais',
-      'Integração com redes sociais',
-      'SEO básico on-page',
-      '2 rodadas de ajustes',
-    ],
-    buttonText: 'Quero o plano Pro',
-  },
-  {
-    id: 3,
-    name: 'Premium',
-    price: 'R$ 1.997',
-    description: 'Para negócios que querem uma estrutura mais completa para captação e vendas.',
-    featured: false,
-    features: [
-      'Tudo do plano Pro',
-      'Seção de depoimentos',
-      'FAQ estratégico',
-      'Integração com analytics',
-      'Performance e otimização avançada',
-      '3 rodadas de ajustes',
-    ],
-    buttonText: 'Quero o plano Premium',
-  },
-]
+export const companyInfo = {
+  name: 'MAOP Digital Solutions',
+  subtitle: 'Landing pages e sites para gerar mais vendas',
+  whatsappNumber: '5531983347045',
+  whatsappMessage:
+    'Olá! Vim pelo site e quero saber mais sobre os planos de criação de landing page.',
+  email: 'maopdigitalsolutions@gmail.com',
+}
 
 export const benefits = [
   {
@@ -72,6 +31,59 @@ export const benefits = [
     title: 'Velocidade e boas práticas',
     description:
       'Código limpo, componentizado e com foco em manutenção, desempenho e escalabilidade.',
+  },
+]
+
+export const plans = [
+  {
+    id: 1,
+    name: 'Start',
+    price: 'R$ 497',
+    description:
+      'Ideal para quem precisa de presença digital rápida e profissional.',
+    featured: false,
+    features: [
+      'Landing page responsiva',
+      'Design moderno e profissional',
+      'Botão para WhatsApp',
+      'Formulário de contato',
+      '1 rodada de ajustes',
+    ],
+    buttonText: 'Quero o plano Start',
+  },
+  {
+    id: 2,
+    name: 'Pro',
+    price: 'R$ 997',
+    description:
+      'Perfeito para empresas que desejam vender mais com uma página estratégica.',
+    featured: true,
+    features: [
+      'Tudo do plano Start',
+      'Copy persuasiva para conversão',
+      'Seção de benefícios e diferenciais',
+      'Integração com redes sociais',
+      'SEO básico on-page',
+      '2 rodadas de ajustes',
+    ],
+    buttonText: 'Quero o plano Pro',
+  },
+  {
+    id: 3,
+    name: 'Premium',
+    price: 'R$ 1.997',
+    description:
+      'Para negócios que querem uma estrutura mais completa para captação e vendas.',
+    featured: false,
+    features: [
+      'Tudo do plano Pro',
+      'Seção de depoimentos',
+      'FAQ estratégico',
+      'Integração com analytics',
+      'Performance e otimização avançada',
+      '3 rodadas de ajustes',
+    ],
+    buttonText: 'Quero o plano Premium',
   },
 ]
 

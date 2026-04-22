@@ -5,6 +5,7 @@ import Plans from './components/Plans/Plans'
 import Process from './components/Process/Process'
 import FAQ from './components/FAQ/FAQ'
 import CTA from './components/CTA/CTA'
+import WhatsAppButton from './components/WhatsAppButton/WhatsAppButton'
 import Footer from './components/Footer/Footer'
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
         <FAQ />
         <CTA />
       </main>
+      <WhatsAppButton />
       <Footer />
     </>
   )
