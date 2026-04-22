@@ -1,0 +1,27 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: rgba(10, 15, 31, 0.95);
+  border-bottom: 1px solid var(--border-color);
+  backdrop-filter: blur(8px);
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  min-height: 80px;
+}
+
+.header__logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--white);
+}
+
+.header__subtitle {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+}

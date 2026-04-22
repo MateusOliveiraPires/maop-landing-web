@@ -1,0 +1,22 @@
+.faq__list {
+  display: grid;
+  gap: 1rem;
+  margin-top: 3rem;
+}
+
+.faq__item {
+  background: var(--bg-card-strong);
+  border: 1px solid var(--border-color);
+  border-radius: 20px;
+  padding: 1.5rem;
+}
+
+.faq__item h3 {
+  color: var(--white);
+  margin-bottom: 0.75rem;
+}
+
+.faq__item p {
+  color: var(--text-muted);
+  line-height: 1.6;
+}
