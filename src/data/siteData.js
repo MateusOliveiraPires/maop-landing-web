@@ -38,7 +38,7 @@ export const plans = [
   {
     id: 1,
     name: 'Start',
-    price: 'R$ 497',
+    price: 'R$ 897',
     description:
       'Ideal para quem precisa de presença digital rápida e profissional.',
     featured: false,
@@ -54,7 +54,7 @@ export const plans = [
   {
     id: 2,
     name: 'Pro',
-    price: 'R$ 997',
+    price: 'R$ 1497',
     description:
       'Perfeito para empresas que desejam vender mais com uma página estratégica.',
     featured: true,
